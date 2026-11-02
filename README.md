@@ -27,11 +27,4 @@ Le site est reconstruit et publié automatiquement par GitHub à chaque modifica
 - Les images ajoutées vont dans `docs/en/`, à côté des images de la même page.
 - Tableaux : gardez le même nombre de barres verticales `|` sur chaque ligne.
 
-## Construire le site en local (facultatif)
 
-```
-pip install -r requirements.txt
-mkdocs serve
-```
-
-Puis ouvrir http://127.0.0.1:8000.
