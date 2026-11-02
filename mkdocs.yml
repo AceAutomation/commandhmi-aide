@@ -1,0 +1,1569 @@
+site_name: CommandHMI Help
+repo_url: https://github.com/VOTRE-COMPTE/commandhmi-aide
+edit_uri: edit/main/docs/
+docs_dir: docs
+use_directory_urls: false
+theme:
+  name: material
+  language: en
+  features:
+  - navigation.indexes
+  - navigation.top
+  - search.highlight
+  - content.code.copy
+  - navigation.footer
+  - content.action.edit
+  palette:
+  - scheme: default
+    primary: blue
+    toggle:
+      icon: material/brightness-7
+      name: Dark mode
+  - scheme: slate
+    primary: blue
+    toggle:
+      icon: material/brightness-4
+      name: Light mode
+markdown_extensions:
+- tables
+- attr_list
+- md_in_html
+- pymdownx.highlight:
+    anchor_linenums: false
+- pymdownx.superfences
+- toc:
+    permalink: true
+plugins:
+- search
+- offline
+- i18n:
+    docs_structure: folder
+    fallback_to_default: true
+    reconfigure_material: true
+    languages:
+    - locale: en
+      default: true
+      name: English
+      build: true
+    - locale: it
+      name: Italiano
+      build: true
+      site_name: Guida CommandHMI
+      nav_translations:
+        A simple macroblock: Un semplice blocco macro
+        AIBUS device driver: Driver per dispositivi AIBUS
+        ASCII Display: Visualizzazione ASCII
+        ASCII Input: Inserimento ASCII
+        Address Library: Libreria di indirizzi
+        Alarm Bar: Barra allarmi
+        Alarm Display: Visualizzazione allarmi
+        Alarm Display Controls: Oggetti di visualizzazione allarmi
+        Alarm settings: Impostazioni allarmi
+        Align: Allineamento
+        Allen-Bradley device driver: Driver per dispositivi Allen-Bradley
+        Analog Alarm Login: Registrazione allarmi analogici
+        Animation: Animazione
+        Appendix: Appendice
+        Arc Chart: Grafico ad arco
+        Automatic sorting: Ordinamento automatico
+        Bar Graph: Grafico a barre
+        Basic Operations: Operazioni di base
+        Basic operator and expression: Operatori di base ed espressioni
+        Basic steps of creating a new project: Passaggi di base per creare un nuovo
+          progetto
+        Bit Button: Pulsante di bit
+        Bit Lamp: Spia di bit
+        Branch structure program: Programmi con struttura a diramazione
+        C language programming preliminary: Primi passi nella programmazione in C
+        CAN communication function: Funzioni di comunicazione CAN
+        Camera: Telecamera
+        Circle/Ellipse: Cerchio/Ellisse
+        Clock: Orologio
+        Combo Box: Casella combinata
+        CommandHMI Advanced controls: Oggetti avanzati di CommandHMI
+        CommandHMI Basic controls: Oggetti di base di CommandHMI
+        CommandHMI Configuration Guide: Guida alla configurazione di CommandHMI
+        CommandHMI Control Instructions: Istruzioni sugli oggetti di CommandHMI
+        CommandHMI New controls: Nuovi oggetti di CommandHMI
+        Common terms: Termini comuni
+        Communication Port Property: Proprietà della porta di comunicazione
+        Communication function: Funzioni di comunicazione
+        Communication port: Porta di comunicazione
+        Connection among multiple screens and machines: Collegamento tra più HMI e
+          più dispositivi
+        Copy Screen: Copiare una pagina
+        Corner Flow Block: Blocco di flusso ad angolo
+        Create a New Screen: Creare una nuova pagina
+        Create new project: Creare un nuovo progetto
+        Curve / Arc: Curva / Arco
+        Data Group Display: Visualizzazione gruppo dati
+        Data Transmission: Trasmissione dati
+        Data forwarding: Inoltro dati
+        Data operation function: Funzioni di elaborazione dei dati
+        Data switch function: Funzioni di conversione dei dati
+        Data type of C language: Tipi di dati del linguaggio C
+        Date Display: Visualizzazione data
+        Delete Screen: Eliminare una pagina
+        Delta device driver: Driver per dispositivi Delta
+        Determinant: Matrice
+        Device driver: Driver dei dispositivi
+        Dial switch: Selettore DIP
+        Digital Alarm Login: Registrazione allarmi digitali
+        Discrete alarm login: Registrazione allarmi discreti
+        Download configuration engineering: Download del progetto
+        Draw Basic graphics: Disegnare grafica di base
+        Dynamic Circle: Cerchio dinamico
+        Dynamic Rectangle: Rettangolo dinamico
+        Edit Interface: Interfaccia di modifica
+        Edit Interface and System Composition: Interfaccia di modifica e composizione
+          del sistema
+        Emerson device driver: Driver per dispositivi Emerson
+        Export data via U disk: Esportare dati tramite chiavetta USB
+        Extern Picture: Immagine esterna
+        FAQ & Solutions: FAQ e soluzioni
+        Fatek device driver: Driver per dispositivi Fatek
+        File Encryption: Crittografia dei file
+        Flow block: Blocco di flusso
+        Free Line: Linea a mano libera
+        Free Port Communication Protocol Case: Esempio di protocollo di comunicazione
+          libero (Free Port)
+        Front panel: Pannello frontale
+        Fuji device driver: Driver per dispositivi Fuji
+        Function Button: Pulsante funzione
+        Function button introduction in script editor: Pulsanti funzione dell'editor
+          di script
+        GE device driver: Driver per dispositivi GE
+        GIF Display: Visualizzazione GIF
+        General: Generalità
+        Global Script: Script globale
+        Graphic Move: Movimento grafico
+        Graphics editing commands: Comandi di modifica grafica
+        Group and Ungroup: Raggruppa e separa
+        HMI Protection: Protezione HMI
+        HMI Specification: Specifiche HMI
+        HMI State: Stato HMI
+        HMI Structure: Struttura dell'HMI
+        HMI parameter settings: Impostazione dei parametri HMI
+        HaiWell device driver: Driver per dispositivi HaiWell
+        Hardware Demand: Requisiti hardware
+        Hardware Manual: Manuale hardware
+        Historical Alarm Display: Visualizzazione storico allarmi
+        Historical Data Collector: Raccolta dati storici
+        Historical Data Collector Case: Esempio di raccolta dati storici
+        Historical Data Display: Visualizzazione dati storici
+        Historical Trend Chart: Grafico di tendenza storico
+        Hitachi device driver: Driver per dispositivi Hitachi
+        HollySys device driver: Driver per dispositivi HollySys
+        IDEC device driver: Driver per dispositivi IDEC
+        Init Script: Script di inizializzazione
+        Initial value of variable and type conversion: Valore iniziale delle variabili
+          e conversione di tipo
+        Inovance device driver: Driver per dispositivi Inovance
+        Introduction to C language: Introduzione al linguaggio C
+        Invt device: Dispositivi Invt
+        Keyboard: Tastiera
+        Keyence device driver: Driver per dispositivi Keyence
+        Koyo device driver: Driver per dispositivi Koyo
+        LG device driver: Driver per dispositivi LG
+        Language: Lingua
+        Layer: Livelli
+        Line: Linea
+        Loop structure program: Programmi con struttura a ciclo
+        Math arithmetic function: Funzioni matematiche
+        Matsushita device driver: Driver per dispositivi Matsushita
+        Message Board: Bacheca messaggi
+        Message Display: Visualizzazione messaggi
+        Meter: Strumento a lancetta
+        Mitsubishi device driver: Driver per dispositivi Mitsubishi
+        Modbus device driver: Driver per dispositivi Modbus
+        Modicon device driver: Driver per dispositivi Modicon
+        Modify Screen Property: Modificare le proprietà della pagina
+        Mouse usage and shortcut keys: Uso del mouse e tasti di scelta rapida
+        Multi Window: Finestra multipla
+        Multi-function Button: Pulsante multifunzione
+        Multi-state Button: Pulsante multistato
+        Multi-state Indicator Lamp: Spia multistato
+        Nanda device driver: Driver per dispositivi Nanda
+        New create script: Creare un nuovo script
+        Newly labeled communication address options: Nuove opzioni degli indirizzi
+          di comunicazione
+        Number signals of communication errors between HMI and PLC: Codici di errore
+          di comunicazione tra HMI e PLC
+        Numerical Display: Visualizzazione numerica
+        Numerical Input: Inserimento numerico
+        Offline Simulation: Simulazione offline
+        Omron device driver: Driver per dispositivi Omron
+        One-dimensional array: Array monodimensionali
+        Online Simulation: Simulazione online
+        Open Library: Apri libreria
+        Operation Log: Registro operazioni
+        Operation case (Supplement): Esempi applicativi (supplemento)
+        PLC Control: Controllo da PLC
+        Pack/Unpack: Comprimi/Decomprimi
+        Path Display Case: Esempio di visualizzazione percorso
+        Path display: Visualizzazione percorso
+        Penetration connection: Collegamento passante (pass-through)
+        Picture Display: Visualizzazione immagini
+        Picture Format: Formati immagine
+        Pie Chart: Grafico a torta
+        Pipeline: Tubazione
+        Polygon: Poligono
+        Polyline: Polilinea
+        Power Interface: Interfaccia di alimentazione
+        Preface: Prefazione
+        Project Manager: Gestione progetto
+        Qrcode: Codice QR
+        Quick Start Of CommandHMI: Guida rapida di CommandHMI
+        Radio Button: Pulsante di opzione
+        Recipe: Ricette
+        Recipe Case: Esempio di ricette
+        Recipe Display: Visualizzazione ricette
+        Recipe Selector: Selettore ricette
+        Rectangle: Rettangolo
+        Regular polygon: Poligono regolare
+        Reserved Registers of CommandHMI System: Registri riservati del sistema CommandHMI
+        Rotaty: Rotazione
+        Rounded Rectangle: Rettangolo arrotondato
+        Run CommandHMI: Avvio di CommandHMI
+        Running Indicator Lights: Spie di funzionamento
+        Scale: Scala graduata
+        Schedule Table: Tabella di pianificazione
+        Screen: Pagina
+        Screen Operations: Operazioni sulle pagine
+        Screen button: Pulsante di pagina
+        Script function introduction: Introduzione alle funzioni di script
+        Scroll bar: Barra di scorrimento
+        Section summary: Riepilogo della sezione
+        Sector: Settore
+        Set Up Software: Installazione del software
+        Set parameters and add graphic object: Impostare i parametri e aggiungere
+          oggetti grafici
+        Setting: Impostazioni
+        Siemens device driver: Driver per dispositivi Siemens
+        Simulation: Simulazione
+        Slider: Cursore
+        Software Demand: Requisiti software
+        Standard Toolbar: Barra degli strumenti standard
+        Statement of C program: Istruzioni del programma C
+        Static Picture: Immagine statica
+        Stepping Button: Pulsante a passi
+        String handling functions: Funzioni di gestione delle stringhe
+        System Composition: Composizione del sistema
+        System Demand: Requisiti di sistema
+        System Settings: Impostazioni di sistema
+        Table: Tabella
+        TaiAn device driver: Driver per dispositivi TaiAn
+        TaiLing device driver: Driver per dispositivi TaiLing
+        Techwayson device driver: Driver per dispositivi Techwayson
+        Text: Testo
+        Text Library: Libreria di testi
+        The operation setting: Impostazioni operative
+        Theme: Topic
+        Time Display: Visualizzazione ora
+        Toolbox: Casella degli strumenti
+        Trend Chart: Grafico di tendenza
+        Trigger_Script: Script a trigger
+        Uninstall Software: Disinstallazione del software
+        Update project via U disk: Aggiornare il progetto tramite chiavetta USB
+        Update recipe via U disk: Aggiornare le ricette tramite chiavetta USB
+        Upload configuration engineering: Upload del progetto
+        Upload historical data record: Upload dei dati storici registrati
+        Use internal storage area in script: Uso dell'area di memoria interna negli
+          script
+        Use of HMIManager: Uso di HMIManager
+        Use script function to program: Programmare con le funzioni di script
+        User Permission: Permessi utente
+        Variable Table: Tabella delle variabili
+        Vigor device driver: Driver per dispositivi Vigor
+        Week Display: Visualizzazione giorno della settimana
+        What's CommandHMI: Che cos'è CommandHMI
+        Window: Finestra
+        Wiring: Cablaggio
+        Word Button: Pulsante di word
+        XY Trend Chart: Grafico di tendenza XY
+        Xinje device driver: Driver per dispositivi Xinje
+        Yokogawa device driver: Driver per dispositivi Yokogawa
+        ZhengHang device driver: Driver per dispositivi ZhengHang
+        break statement: Istruzione break
+        continue statement: Istruzione continue
+        for statement: Istruzione for
+        menu bar: Barra dei menu
+        switch statement: Istruzione switch
+        “One machine with multiple screens” connection: Collegamento "un dispositivo
+          con più HMI"
+        “One screen with multiple machines” connection: Collegamento "un HMI con più
+          dispositivi"
+        Pin: Piedinatura
+        Timer: Timer
+        Script: Script
+        Server: Server
+        Can: CAN
+        LB: LB
+        LW: LW
+        RWI: RWI
+    - locale: fr
+      name: Français
+      build: true
+      site_name: Aide CommandHMI
+      nav_translations:
+        A simple macroblock: Un bloc macro simple
+        AIBUS device driver: Pilote d'équipements AIBUS
+        ASCII Display: Affichage ASCII
+        ASCII Input: Saisie ASCII
+        Address Library: Bibliothèque d'adresses
+        Alarm Bar: Bandeau d'alarmes
+        Alarm Display: Affichage des alarmes
+        Alarm Display Controls: Objets d'affichage des alarmes
+        Alarm settings: Réglages des alarmes
+        Align: Alignement
+        Allen-Bradley device driver: Pilote d'équipements Allen-Bradley
+        Analog Alarm Login: Alarmes analogiques
+        Appendix: Annexe
+        Arc Chart: Graphique en arc
+        Automatic sorting: Tri automatique
+        Bar Graph: Bargraphe
+        Basic Operations: Opérations de base
+        Basic operator and expression: Opérateurs de base et expressions
+        Basic steps of creating a new project: Étapes de base de la création d'un
+          projet
+        Bit Button: Bouton de bit
+        Bit Lamp: Voyant de bit
+        Branch structure program: Programmes à structure conditionnelle
+        C language programming preliminary: Premiers pas en programmation C
+        CAN communication function: Fonctions de communication CAN
+        Camera: Caméra
+        Can: CAN
+        Circle/Ellipse: Cercle/Ellipse
+        Clock: Horloge
+        Combo Box: Liste déroulante
+        CommandHMI Advanced controls: Objets avancés CommandHMI
+        CommandHMI Basic controls: Objets de base CommandHMI
+        CommandHMI Configuration Guide: Guide de configuration CommandHMI
+        CommandHMI Control Instructions: Instructions sur les objets CommandHMI
+        CommandHMI New controls: Nouveaux objets CommandHMI
+        Common terms: Termes courants
+        Communication Port Property: Propriétés du port de communication
+        Communication function: Fonctions de communication
+        Communication port: Port de communication
+        Connection among multiple screens and machines: Connexion entre plusieurs
+          IHM et plusieurs équipements
+        Copy Screen: Copier un écran
+        Corner Flow Block: Bloc de flux à angles
+        Create a New Screen: Créer un écran
+        Create new project: Créer un projet
+        Curve / Arc: Courbe / Arc
+        Data Group Display: Affichage de groupes de données
+        Data Transmission: Transmission de données
+        Data forwarding: Transfert de données
+        Data operation function: Fonctions de manipulation de données
+        Data switch function: Fonctions de conversion de données
+        Data type of C language: Types de données du langage C
+        Date Display: Affichage de la date
+        Delete Screen: Supprimer un écran
+        Delta device driver: Pilote d'équipements Delta
+        Determinant: Tableau de données
+        Device driver: Pilotes d'équipements
+        Dial switch: Commutateur DIP
+        Digital Alarm Login: Alarmes numériques
+        Discrete alarm login: Alarmes discrètes
+        Download configuration engineering: Télécharger le projet
+        Draw Basic graphics: Dessin des formes de base
+        Dynamic Circle: Cercle dynamique
+        Dynamic Rectangle: Rectangle dynamique
+        Edit Interface: Interface d'édition
+        Edit Interface and System Composition: Interface d'édition et composition
+          du système
+        Emerson device driver: Pilote d'équipements Emerson
+        Export data via U disk: Exporter des données via clé USB
+        Extern Picture: Image externe
+        FAQ & Solutions: FAQ et solutions
+        Fatek device driver: Pilote d'équipements Fatek
+        File Encryption: Chiffrement du fichier
+        Flow block: Bloc de flux
+        Free Line: Ligne libre
+        Free Port Communication Protocol Case: Exemple de protocole de communication
+          libre (Free Port)
+        Front panel: Face avant
+        Fuji device driver: Pilote d'équipements Fuji
+        Function Button: Bouton de fonction
+        Function button introduction in script editor: Boutons de fonction de l'éditeur
+          de scripts
+        GE device driver: Pilote d'équipements GE
+        GIF Display: Affichage GIF
+        General: Généralités
+        Global Script: Script global
+        Graphic Move: Déplacement graphique
+        Graphics editing commands: Commandes d'édition graphique
+        Group and Ungroup: Grouper et dissocier
+        HMI Protection: Protection IHM
+        HMI Specification: Spécifications IHM
+        HMI State: État de l'IHM
+        HMI Structure: Structure de l'IHM
+        HMI parameter settings: Paramètres de l'IHM
+        HaiWell device driver: Pilote d'équipements HaiWell
+        Hardware Demand: Configuration matérielle requise
+        Hardware Manual: Manuel matériel
+        Historical Alarm Display: Affichage de l'historique des alarmes
+        Historical Data Collector: Collecteur de données historiques
+        Historical Data Collector Case: Exemple de collecte de données historiques
+        Historical Data Display: Affichage des données historiques
+        Historical Trend Chart: Courbe de tendance historique
+        Hitachi device driver: Pilote d'équipements Hitachi
+        HollySys device driver: Pilote d'équipements HollySys
+        IDEC device driver: Pilote d'équipements IDEC
+        Init Script: Script d'initialisation
+        Initial value of variable and type conversion: Valeur initiale des variables
+          et conversion de type
+        Inovance device driver: Pilote d'équipements Inovance
+        Introduction to C language: Introduction au langage C
+        Invt device: Équipements Invt
+        Keyboard: Clavier
+        Keyence device driver: Pilote d'équipements Keyence
+        Koyo device driver: Pilote d'équipements Koyo
+        LG device driver: Pilote d'équipements LG
+        Language: Langue
+        Layer: Plans
+        Line: Ligne
+        Loop structure program: Programmes à structure de boucle
+        Math arithmetic function: Fonctions mathématiques
+        Matsushita device driver: Pilote d'équipements Matsushita
+        Message Board: Tableau d'écriture
+        Message Display: Affichage de messages
+        Meter: Indicateur à aiguille
+        Mitsubishi device driver: Pilote d'équipements Mitsubishi
+        Modbus device driver: Pilote d'équipements Modbus
+        Modicon device driver: Pilote d'équipements Modicon
+        Modify Screen Property: Modifier les propriétés d'un écran
+        Mouse usage and shortcut keys: Utilisation de la souris et raccourcis clavier
+        Multi Window: Multi-fenêtres
+        Multi-function Button: Bouton multifonction
+        Multi-state Button: Bouton multi-états
+        Multi-state Indicator Lamp: Voyant multi-états
+        Nanda device driver: Pilote d'équipements Nanda
+        New create script: Créer un script
+        Newly labeled communication address options: Nouvelles options d'adresses
+          de communication étiquetées
+        Number signals of communication errors between HMI and PLC: Codes d'erreur
+          de communication entre IHM et automate
+        Numerical Display: Affichage numérique
+        Numerical Input: Saisie numérique
+        Offline Simulation: Simulation hors ligne
+        Omron device driver: Pilote d'équipements Omron
+        One-dimensional array: Tableaux à une dimension
+        Online Simulation: Simulation en ligne
+        Open Library: Ouvrir la bibliothèque
+        Operation Log: Journal des opérations
+        Operation case (Supplement): Exemples d'application (complément)
+        PLC Control: Commande par l'automate
+        Pack/Unpack: Compresser/Décompresser
+        Path Display Case: Exemple d'affichage de tracé
+        Path display: Affichage de tracé
+        Penetration connection: Connexion passante
+        Picture Display: Affichage d'images
+        Picture Format: Format des images
+        Pie Chart: Graphique en secteurs
+        Pin: Brochage
+        Pipeline: Tuyauterie
+        Polygon: Polygone
+        Polyline: Polyligne
+        Power Interface: Interface d'alimentation
+        Preface: Préface
+        Project Manager: Gestionnaire de projet
+        Qrcode: Code QR
+        Quick Start Of CommandHMI: Démarrage rapide avec CommandHMI
+        Radio Button: Bouton radio
+        Recipe: Recette
+        Recipe Case: Exemple de recettes
+        Recipe Display: Affichage des recettes
+        Recipe Selector: Sélecteur de recette
+        Regular polygon: Polygone régulier
+        Reserved Registers of CommandHMI System: Registres réservés du système CommandHMI
+        Rotaty: Rotation
+        Rounded Rectangle: Rectangle arrondi
+        Run CommandHMI: Lancer CommandHMI
+        Running Indicator Lights: Voyants de fonctionnement
+        Scale: Échelle graduée
+        Schedule Table: Planificateur
+        Screen: Écran
+        Screen Operations: Opérations sur les écrans
+        Screen button: Bouton d'écran
+        Script function introduction: Présentation des fonctions de script
+        Scroll bar: Barre de défilement
+        Section summary: Résumé de la section
+        Sector: Secteur
+        Server: Serveur
+        Set Up Software: Installation du logiciel
+        Set parameters and add graphic object: Régler les paramètres et ajouter des
+          objets
+        Setting: Paramètres
+        Siemens device driver: Pilote d'équipements Siemens
+        Slider: Curseur
+        Software Demand: Configuration logicielle requise
+        Standard Toolbar: Barre d'outils standard
+        Statement of C program: Instructions du programme C
+        Static Picture: Image statique
+        Stepping Button: Bouton pas à pas
+        String handling functions: Fonctions de traitement des chaînes
+        System Composition: Composition du système
+        System Demand: Configuration requise
+        System Settings: Paramètres système
+        Table: Tableau
+        TaiAn device driver: Pilote d'équipements TaiAn
+        TaiLing device driver: Pilote d'équipements TaiLing
+        Techwayson device driver: Pilote d'équipements Techwayson
+        Text: Texte
+        Text Library: Bibliothèque de textes
+        The operation setting: Réglages d'utilisation
+        Theme: Sujets
+        Time Display: Affichage de l'heure
+        Timer: Temporisateur
+        Toolbox: Boîte à outils
+        Trend Chart: Courbe de tendance
+        Trigger_Script: Script déclenché
+        Uninstall Software: Désinstallation du logiciel
+        Update project via U disk: Mettre à jour le projet via clé USB
+        Update recipe via U disk: Mettre à jour les recettes via clé USB
+        Upload configuration engineering: Charger le projet
+        Upload historical data record: Charger l'historique des données
+        Use internal storage area in script: Utiliser la mémoire interne dans les
+          scripts
+        Use of HMIManager: Utilisation de HMIManager
+        Use script function to program: Programmer avec les fonctions de script
+        User Permission: Droits utilisateur
+        Variable Table: Table des variables
+        Vigor device driver: Pilote d'équipements Vigor
+        Week Display: Affichage du jour de la semaine
+        What's CommandHMI: Qu'est-ce que CommandHMI ?
+        Window: Fenêtre
+        Wiring: Câblage
+        Word Button: Bouton de mot
+        XY Trend Chart: Courbe de tendance XY
+        Xinje device driver: Pilote d'équipements Xinje
+        Yokogawa device driver: Pilote d'équipements Yokogawa
+        ZhengHang device driver: Pilote d'équipements ZhengHang
+        break statement: Instruction break
+        continue statement: Instruction continue
+        for statement: Instruction for
+        menu bar: Barre de menus
+        switch statement: Instruction switch
+        “One machine with multiple screens” connection: Connexion « un équipement,
+          plusieurs IHM »
+        “One screen with multiple machines” connection: Connexion « une IHM, plusieurs
+          équipements »
+        Animation: Animation
+        Simulation: Simulation
+        Script: Script
+        Rectangle: Rectangle
+    - locale: de
+      name: Deutsch
+      build: true
+      site_name: CommandHMI-Hilfe
+      nav_translations:
+        A simple macroblock: Ein einfacher Skriptbaustein
+        AIBUS device driver: Gerätetreiber AIBUS
+        ASCII Display: ASCII-Anzeige
+        ASCII Input: ASCII-Eingabe
+        Address Library: Adressbibliothek
+        Alarm Bar: Alarmlaufband
+        Alarm Display: Alarmanzeige
+        Alarm Display Controls: Alarmanzeigeobjekte
+        Alarm settings: Alarmeinstellungen
+        Align: Ausrichten
+        Allen-Bradley device driver: Gerätetreiber Allen-Bradley
+        Analog Alarm Login: Analoge Alarme
+        Appendix: Anhang
+        Arc Chart: Bogendiagramm
+        Automatic sorting: Automatische Sortierung
+        Bar Graph: Balkendiagramm
+        Basic Operations: Grundlegende Bedienung
+        Basic operator and expression: Grundlegende Operatoren und Ausdrücke
+        Basic steps of creating a new project: Grundschritte zum Anlegen eines Projekts
+        Bit Button: Bit-Taste
+        Bit Lamp: Bit-Lampe
+        Branch structure program: Programme mit Verzweigung
+        C language programming preliminary: Erste Schritte in der C-Programmierung
+        CAN communication function: CAN-Kommunikationsfunktionen
+        Camera: Kamera
+        Circle/Ellipse: Kreis/Ellipse
+        Clock: Uhr
+        Combo Box: Auswahlliste
+        CommandHMI Advanced controls: CommandHMI – erweiterte Objekte
+        CommandHMI Basic controls: CommandHMI-Basisobjekte
+        CommandHMI Configuration Guide: CommandHMI-Projektierungshandbuch
+        CommandHMI Control Instructions: Hinweise zu den CommandHMI-Objekten
+        CommandHMI New controls: CommandHMI – neue Objekte
+        Common terms: Begriffe
+        Communication Port Property: Eigenschaften der Kommunikationsschnittstelle
+        Communication function: Kommunikationsfunktionen
+        Communication port: Kommunikationsschnittstelle
+        Connection among multiple screens and machines: Verbindung mehrerer HMI und
+          Geräte
+        Copy Screen: Bild kopieren
+        Corner Flow Block: Eck-Flussblock
+        Create a New Screen: Neues Bild anlegen
+        Create new project: Neues Projekt anlegen
+        Curve / Arc: Kurve / Bogen
+        Data Group Display: Datengruppenanzeige
+        Data Transmission: Datenübertragung
+        Data forwarding: Datenweiterleitung
+        Data operation function: Datenbearbeitungsfunktionen
+        Data switch function: Datenumwandlungsfunktionen
+        Data type of C language: Datentypen der Sprache C
+        Date Display: Datumsanzeige
+        Delete Screen: Bild löschen
+        Delta device driver: Gerätetreiber Delta
+        Determinant: Datentabelle
+        Device driver: Gerätetreiber
+        Dial switch: DIP-Schalter
+        Digital Alarm Login: Digitale Alarme
+        Discrete alarm login: Diskrete Alarme
+        Download configuration engineering: Projekt laden (Download)
+        Draw Basic graphics: Grundformen zeichnen
+        Dynamic Circle: Dynamischer Kreis
+        Dynamic Rectangle: Dynamisches Rechteck
+        Edit Interface: Bedienoberfläche
+        Edit Interface and System Composition: Bedienoberfläche und Systemaufbau
+        Emerson device driver: Gerätetreiber Emerson
+        Export data via U disk: Datenexport per USB-Stick
+        Extern Picture: Externe Grafik
+        FAQ & Solutions: FAQ und Lösungen
+        Fatek device driver: Gerätetreiber Fatek
+        File Encryption: Dateiverschlüsselung
+        Flow block: Flussblock
+        Free Line: Freihandlinie
+        Free Port Communication Protocol Case: 'Beispiel: freies Kommunikationsprotokoll
+          (Free Port)'
+        Front panel: Frontseite
+        Fuji device driver: Gerätetreiber Fuji
+        Function Button: Funktionstaste
+        Function button introduction in script editor: Schaltflächen des Skripteditors
+        GE device driver: Gerätetreiber GE
+        GIF Display: GIF-Anzeige
+        General: Allgemeines
+        Global Script: Globales Skript
+        Graphic Move: Grafikbewegung
+        Graphics editing commands: Grafikbearbeitung
+        Group and Ungroup: Gruppieren und Gruppierung aufheben
+        HMI Protection: HMI-Schutz
+        HMI Specification: HMI-Spezifikation
+        HMI State: HMI-Status
+        HMI Structure: Aufbau des HMI
+        HMI parameter settings: HMI-Parametereinstellungen
+        HaiWell device driver: Gerätetreiber HaiWell
+        Hardware Demand: Hardwarevoraussetzungen
+        Hardware Manual: Hardwarehandbuch
+        Historical Alarm Display: Anzeige historischer Alarme
+        Historical Data Collector: Historischer Datensammler
+        Historical Data Collector Case: 'Beispiel: Historischer Datensammler'
+        Historical Data Display: Historische Datenanzeige
+        Historical Trend Chart: Historisches Trenddiagramm
+        Hitachi device driver: Gerätetreiber Hitachi
+        HollySys device driver: Gerätetreiber HollySys
+        IDEC device driver: Gerätetreiber IDEC
+        Init Script: Initialisierungsskript
+        Initial value of variable and type conversion: Anfangswerte von Variablen
+          und Typumwandlung
+        Inovance device driver: Gerätetreiber Inovance
+        Introduction to C language: Einführung in die Sprache C
+        Invt device: Geräte Invt
+        Keyboard: Tastatur
+        Keyence device driver: Gerätetreiber Keyence
+        Koyo device driver: Gerätetreiber Koyo
+        LG device driver: Gerätetreiber LG
+        Language: Sprache
+        Layer: Ebene
+        Line: Linie
+        Loop structure program: Programme mit Schleifen
+        Math arithmetic function: Mathematische Funktionen
+        Matsushita device driver: Gerätetreiber Matsushita
+        Message Board: Schreibtafel
+        Message Display: Meldungsanzeige
+        Meter: Zeigerinstrument
+        Mitsubishi device driver: Gerätetreiber Mitsubishi
+        Modbus device driver: Gerätetreiber Modbus
+        Modicon device driver: Gerätetreiber Modicon
+        Modify Screen Property: Bildeigenschaften ändern
+        Mouse usage and shortcut keys: Maus und Tastenkürzel
+        Multi Window: Multifenster
+        Multi-function Button: Multifunktionstaste
+        Multi-state Button: Mehrzustandstaste
+        Multi-state Indicator Lamp: Mehrzustandslampe
+        Nanda device driver: Gerätetreiber Nanda
+        New create script: Skript anlegen
+        Newly labeled communication address options: Neue Auswahl gelabelter Kommunikationsadressen
+        Number signals of communication errors between HMI and PLC: Fehlercodes der
+          Kommunikation zwischen HMI und SPS
+        Numerical Display: Numerische Anzeige
+        Numerical Input: Numerische Eingabe
+        Offline Simulation: Offline-Simulation
+        Omron device driver: Gerätetreiber Omron
+        One-dimensional array: Eindimensionale Arrays
+        Online Simulation: Online-Simulation
+        Open Library: Bibliothek öffnen
+        Operation Log: Bedienprotokoll
+        Operation case (Supplement): Anwendungsbeispiele (Ergänzung)
+        PLC Control: SPS-Steuerung
+        Pack/Unpack: Packen/Entpacken
+        Path Display Case: Beispiel Bahnanzeige
+        Path display: Bahnanzeige
+        Penetration connection: Durchgangsverbindung
+        Picture Display: Grafikanzeige
+        Picture Format: Grafikformat
+        Pie Chart: Kreisdiagramm
+        Pin: Anschlussbelegung
+        Pipeline: Rohrleitung
+        Polyline: Polylinie
+        Power Interface: Stromversorgungsanschluss
+        Preface: Vorwort
+        Project Manager: Projektmanager
+        Qrcode: QR-Code
+        Quick Start Of CommandHMI: Schnellstart mit CommandHMI
+        Radio Button: Optionsfeld
+        Recipe: Rezept
+        Recipe Case: Rezept-Beispiel
+        Recipe Display: Rezeptanzeige
+        Recipe Selector: Rezeptauswahl
+        Rectangle: Rechteck
+        Regular polygon: Regelmäßiges Polygon
+        Reserved Registers of CommandHMI System: Reservierte Register des CommandHMI-Systems
+        Rotaty: Drehen
+        Rounded Rectangle: Abgerundetes Rechteck
+        Run CommandHMI: CommandHMI starten
+        Running Indicator Lights: Betriebsanzeigen
+        Scale: Skala
+        Schedule Table: Zeitplan
+        Screen: Bild
+        Screen Operations: Bildoperationen
+        Screen button: Bildwechsel-Taste
+        Script function introduction: Einführung in die Skriptfunktionen
+        Scroll bar: Bildlaufleiste
+        Section summary: Zusammenfassung
+        Sector: Sektor
+        Set Up Software: Software installieren
+        Set parameters and add graphic object: Parameter einstellen und Grafikobjekte
+          hinzufügen
+        Setting: Einstellungen
+        Siemens device driver: Gerätetreiber Siemens
+        Slider: Schieberegler
+        Software Demand: Softwarevoraussetzungen
+        Standard Toolbar: Standard-Werkzeugleiste
+        Statement of C program: Anweisungen in C
+        Static Picture: Statische Grafik
+        Stepping Button: Schritttaste
+        String handling functions: Zeichenkettenfunktionen
+        System Composition: Systemaufbau
+        System Demand: Systemvoraussetzungen
+        System Settings: Systemeinstellungen
+        Table: Tabelle
+        TaiAn device driver: Gerätetreiber TaiAn
+        TaiLing device driver: Gerätetreiber TaiLing
+        Techwayson device driver: Gerätetreiber Techwayson
+        Text Library: Textbibliothek
+        The operation setting: Bedieneinstellungen
+        Theme: Topic
+        Time Display: Zeitanzeige
+        Toolbox: Werkzeugkasten
+        Trend Chart: Trenddiagramm
+        Trigger_Script: Trigger-Skript
+        Uninstall Software: Software deinstallieren
+        Update project via U disk: Projekt per USB-Stick aktualisieren
+        Update recipe via U disk: Rezepte per USB-Stick aktualisieren
+        Upload configuration engineering: Projekt hochladen (Upload)
+        Upload historical data record: Historische Daten hochladen
+        Use internal storage area in script: Internen Speicher in Skripten verwenden
+        Use of HMIManager: Verwendung von HMIManager
+        Use script function to program: Programmieren mit Skriptfunktionen
+        User Permission: Benutzerberechtigungen
+        Variable Table: Variablentabelle
+        Vigor device driver: Gerätetreiber Vigor
+        Week Display: Wochentagsanzeige
+        What's CommandHMI: Was ist CommandHMI
+        Window: Fenster
+        Wiring: Verdrahtung
+        Word Button: Wort-Taste
+        XY Trend Chart: XY-Trenddiagramm
+        Xinje device driver: Gerätetreiber Xinje
+        Yokogawa device driver: Gerätetreiber Yokogawa
+        ZhengHang device driver: Gerätetreiber ZhengHang
+        break statement: break-Anweisung
+        continue statement: continue-Anweisung
+        for statement: for-Anweisung
+        menu bar: Menüleiste
+        switch statement: switch-Anweisung
+        “One machine with multiple screens” connection: Verbindung „ein Gerät, mehrere
+          HMI“
+        “One screen with multiple machines” connection: Verbindung „ein HMI, mehrere
+          Geräte“
+        Timer: Timer
+        Animation: Animation
+        Simulation: Simulation
+        Script: Skript
+    - locale: es
+      name: Español
+      build: true
+      site_name: Ayuda de CommandHMI
+      nav_translations:
+        A simple macroblock: Un script sencillo
+        AIBUS device driver: Controlador de dispositivos AIBUS
+        ASCII Display: Visualización ASCII
+        ASCII Input: Entrada ASCII
+        Address Library: Biblioteca de direcciones
+        Alarm Bar: Barra de alarmas
+        Alarm Display: Visualización de alarmas
+        Alarm Display Controls: Objetos de visualización de alarmas
+        Alarm settings: Ajustes de alarmas
+        Align: Alinear
+        Allen-Bradley device driver: Controlador Allen-Bradley
+        Analog Alarm Login: Alarmas analógicas
+        Animation: Animación
+        Appendix: Anexo
+        Arc Chart: Gráfico de arco
+        Automatic sorting: Ordenación automática
+        Bar Graph: Gráfico de barras
+        Basic Operations: Operaciones básicas
+        Basic operator and expression: Operadores y expresiones básicos
+        Basic steps of creating a new project: Pasos básicos para crear un proyecto
+        Bit Button: Botón de bit
+        Bit Lamp: Lámpara de bit
+        Branch structure program: Programas con bifurcaciones
+        C language programming preliminary: Primeros pasos en programación C
+        CAN communication function: Funciones de comunicación CAN
+        Camera: Cámara
+        Circle/Ellipse: Círculo/elipse
+        Clock: Reloj
+        Combo Box: Lista desplegable
+        CommandHMI Advanced controls: Objetos avanzados de CommandHMI
+        CommandHMI Basic controls: Objetos básicos de CommandHMI
+        CommandHMI Configuration Guide: Guía de configuración de CommandHMI
+        CommandHMI Control Instructions: Notas sobre los objetos de CommandHMI
+        CommandHMI New controls: Objetos nuevos de CommandHMI
+        Common terms: Términos habituales
+        Communication Port Property: Propiedades del puerto de comunicación
+        Communication function: Funciones de comunicación
+        Communication port: Puertos de comunicación
+        Connection among multiple screens and machines: Conexión de varios HMI y equipos
+        Copy Screen: Copiar una pantalla
+        Corner Flow Block: Bloque de flujo con codos
+        Create a New Screen: Crear una pantalla
+        Create new project: Crear un proyecto
+        Curve / Arc: Curva / arco
+        Data Group Display: Visualización de grupos de datos
+        Data Transmission: Transferencia de datos
+        Data forwarding: Reenvío de datos
+        Data operation function: Funciones de manipulación de datos
+        Data switch function: Funciones de conversión de datos
+        Data type of C language: Tipos de datos del lenguaje C
+        Date Display: Visualización de fecha
+        Delete Screen: Eliminar una pantalla
+        Delta device driver: Controlador Delta
+        Determinant: Tabla de datos
+        Device driver: Controladores de equipos
+        Dial switch: Interruptores DIP
+        Digital Alarm Login: Alarmas digitales
+        Discrete alarm login: Alarmas discretas
+        Download configuration engineering: Descargar el proyecto
+        Draw Basic graphics: Dibujar gráficos básicos
+        Dynamic Circle: Círculo dinámico
+        Dynamic Rectangle: Rectángulo dinámico
+        Edit Interface: Interfaz de edición
+        Edit Interface and System Composition: Interfaz de edición y composición del
+          sistema
+        Emerson device driver: Controlador Emerson
+        Export data via U disk: Exportar datos mediante memoria USB
+        Extern Picture: Imagen externa
+        FAQ & Solutions: Preguntas frecuentes y soluciones
+        Fatek device driver: Controlador Fatek
+        File Encryption: Cifrado de archivo
+        Flow block: Bloque de flujo
+        Free Line: Línea libre
+        Free Port Communication Protocol Case: Ejemplo de protocolo de comunicación
+          libre (Free Port)
+        Front panel: Panel frontal
+        Fuji device driver: Controlador Fuji
+        Function Button: Botón de función
+        Function button introduction in script editor: Botones del editor de scripts
+        GE device driver: Controlador GE
+        GIF Display: Visualización GIF
+        General: Generalidades
+        Global Script: Script global
+        Graphic Move: Movimiento de gráfico
+        Graphics editing commands: Comandos de edición de gráficos
+        Group and Ungroup: Agrupar y desagrupar
+        HMI Protection: Protección del HMI
+        HMI Specification: Especificaciones del HMI
+        HMI State: Estado del HMI
+        HMI Structure: Estructura del HMI
+        HMI parameter settings: Parámetros del HMI
+        HaiWell device driver: Controlador HaiWell
+        Hardware Demand: Requisitos de hardware
+        Hardware Manual: Manual de hardware
+        Historical Alarm Display: Visualización de alarmas históricas
+        Historical Data Collector: Recopilador de datos históricos
+        Historical Data Collector Case: Ejemplo de recopilador de datos históricos
+        Historical Data Display: Visualización de datos históricos
+        Historical Trend Chart: Gráfico de tendencia histórica
+        Hitachi device driver: Controlador Hitachi
+        HollySys device driver: Controlador HollySys
+        IDEC device driver: Controlador IDEC
+        Init Script: Script de inicialización
+        Initial value of variable and type conversion: Valor inicial de las variables
+          y conversión de tipos
+        Inovance device driver: Controlador Inovance
+        Introduction to C language: Introducción al lenguaje C
+        Invt device: Equipo Invt
+        Keyboard: Teclado
+        Keyence device driver: Controlador Keyence
+        Koyo device driver: Controlador Koyo
+        LG device driver: Controlador LG
+        Language: Idioma
+        Layer: Capas
+        Line: Línea
+        Loop structure program: Programas con bucles
+        Math arithmetic function: Funciones matemáticas
+        Matsushita device driver: Controlador Matsushita
+        Message Board: Pizarra
+        Message Display: Visualización de mensajes
+        Meter: Indicador de aguja
+        Mitsubishi device driver: Controlador Mitsubishi
+        Modbus device driver: Controlador Modbus
+        Modicon device driver: Controlador Modicon
+        Modify Screen Property: Modificar las propiedades de la pantalla
+        Mouse usage and shortcut keys: Uso del ratón y atajos de teclado
+        Multi Window: Multiventana
+        Multi-function Button: Botón multifunción
+        Multi-state Button: Botón multiestado
+        Multi-state Indicator Lamp: Lámpara multiestado
+        Nanda device driver: Controlador Nanda
+        New create script: Crear un script
+        Newly labeled communication address options: Nuevas opciones de etiquetas
+          de dirección de comunicación
+        Number signals of communication errors between HMI and PLC: Códigos de error
+          de comunicación entre el HMI y el PLC
+        Numerical Display: Visualización numérica
+        Numerical Input: Entrada numérica
+        Offline Simulation: Simulación sin conexión
+        Omron device driver: Controlador Omron
+        One-dimensional array: Array unidimensional
+        Online Simulation: Simulación en línea
+        Open Library: Abrir biblioteca
+        Operation Log: Registro de operaciones
+        Operation case (Supplement): Ejemplos de aplicación (complemento)
+        PLC Control: Control por PLC
+        Pack/Unpack: Comprimir/descomprimir
+        Path Display Case: Ejemplo de visualización de trayectorias
+        Path display: Visualización de trayectorias
+        Penetration connection: Conexión de paso
+        Picture Display: Visualización de imagen
+        Picture Format: Formato de imagen
+        Pie Chart: Gráfico circular
+        Pin: Asignación de pines
+        Pipeline: Tubería
+        Polygon: Polígono
+        Polyline: Polilínea
+        Power Interface: Alimentación
+        Preface: Prólogo
+        Project Manager: Gestor de proyecto
+        Qrcode: Código QR
+        Quick Start Of CommandHMI: Primeros pasos con CommandHMI
+        Radio Button: Botón de opción
+        Recipe: Receta
+        Recipe Case: Ejemplo de receta
+        Recipe Display: Visualización de recetas
+        Recipe Selector: Selector de recetas
+        Rectangle: Rectángulo
+        Regular polygon: Polígono regular
+        Reserved Registers of CommandHMI System: Registros reservados del sistema
+          CommandHMI
+        Rotaty: Girar
+        Rounded Rectangle: Rectángulo redondeado
+        Run CommandHMI: Ejecutar CommandHMI
+        Running Indicator Lights: Indicadores de funcionamiento
+        Scale: Escala
+        Schedule Table: Programación horaria
+        Screen: Pantalla
+        Screen Operations: Operaciones con pantallas
+        Screen button: Botón de pantalla
+        Script function introduction: Presentación de las funciones de script
+        Scroll bar: Barra de desplazamiento
+        Section summary: Resumen de la sección
+        Server: Servidor
+        Set Up Software: Instalar el software
+        Set parameters and add graphic object: Ajustar parámetros y añadir objetos
+          gráficos
+        Setting: Ajustes
+        Siemens device driver: Controlador Siemens
+        Simulation: Simulación
+        Slider: Deslizador
+        Software Demand: Requisitos de software
+        Standard Toolbar: Barra de herramientas estándar
+        Statement of C program: Instrucciones de un programa C
+        Static Picture: Imagen estática
+        Stepping Button: Botón de pasos
+        String handling functions: Funciones de cadenas
+        System Composition: Composición del sistema
+        System Demand: Requisitos del sistema
+        System Settings: Ajustes del sistema
+        Table: Tabla
+        TaiAn device driver: Controlador TaiAn
+        TaiLing device driver: Controlador TaiLing
+        Techwayson device driver: Controlador Techwayson
+        Text: Texto
+        Text Library: Biblioteca de textos
+        The operation setting: Ajustes de manejo
+        Theme: Topic
+        Time Display: Visualización de hora
+        Toolbox: Caja de herramientas
+        Trend Chart: Gráfico de tendencia
+        Trigger_Script: Script de disparo
+        Uninstall Software: Desinstalar el software
+        Update project via U disk: Actualizar el proyecto mediante memoria USB
+        Update recipe via U disk: Actualizar recetas mediante memoria USB
+        Upload configuration engineering: Cargar el proyecto
+        Upload historical data record: Cargar datos históricos
+        Use internal storage area in script: Uso de la memoria interna en un script
+        Use of HMIManager: Uso de HMIManager
+        Use script function to program: Programar con las funciones de script
+        User Permission: Permisos de usuario
+        Variable Table: Tabla de variables
+        Vigor device driver: Controlador Vigor
+        Week Display: Visualización del día de la semana
+        What's CommandHMI: ¿Qué es CommandHMI?
+        Window: Ventana
+        Wiring: Cableado
+        Word Button: Botón de palabra
+        XY Trend Chart: Gráfico de tendencia XY
+        Xinje device driver: Controlador Xinje
+        Yokogawa device driver: Controlador Yokogawa
+        ZhengHang device driver: Controlador ZhengHang
+        break statement: Instrucción break
+        continue statement: Instrucción continue
+        for statement: Instrucción for
+        menu bar: Barra de menús
+        switch statement: Instrucción switch
+        “One machine with multiple screens” connection: Conexión «un equipo, varios
+          HMI»
+        “One screen with multiple machines” connection: Conexión «un HMI, varios equipos»
+        Timer: Temporizador
+        Script: Script
+    - locale: nl
+      name: Nederlands
+      build: true
+      site_name: CommandHMI-help
+      nav_translations:
+        A simple macroblock: Een eenvoudig scriptvoorbeeld
+        AIBUS device driver: Stuurprogramma AIBUS-apparaten
+        ASCII Display: ASCII-weergave
+        ASCII Input: ASCII-invoer
+        Address Library: Adresbibliotheek
+        Alarm Bar: Alarmbalk
+        Alarm Display: Alarmweergave
+        Alarm Display Controls: Alarmobjecten
+        Alarm settings: Alarminstellingen
+        Align: Uitlijnen
+        Allen-Bradley device driver: Stuurprogramma Allen-Bradley
+        Analog Alarm Login: Analoge alarmregistratie
+        Animation: Animatie
+        Appendix: Bijlage
+        Arc Chart: Boogdiagram
+        Automatic sorting: Automatisch sorteren
+        Bar Graph: Staafdiagram
+        Basic Operations: Basisbewerkingen
+        Basic operator and expression: Basisoperatoren en expressies
+        Basic steps of creating a new project: Basisstappen voor een nieuw project
+        Bit Button: Bit-knop
+        Bit Lamp: Bitlamp
+        Branch structure program: Programma's met vertakkingen
+        C language programming preliminary: Eerste stappen in C-programmering
+        CAN communication function: CAN-communicatiefuncties
+        Circle/Ellipse: Cirkel/ellips
+        Clock: Klok
+        Combo Box: Keuzelijst
+        CommandHMI Advanced controls: Geavanceerde objecten van CommandHMI
+        CommandHMI Basic controls: CommandHMI-basisobjecten
+        CommandHMI Configuration Guide: CommandHMI-configuratiehandleiding
+        CommandHMI Control Instructions: Opmerkingen over de CommandHMI-objecten
+        CommandHMI New controls: Nieuwe objecten in CommandHMI
+        Common terms: Gangbare begrippen
+        Communication Port Property: Eigenschappen communicatiepoort
+        Communication function: Communicatiefuncties
+        Communication port: Communicatiepoort
+        Connection among multiple screens and machines: Verbindingen tussen meerdere
+          schermen en machines
+        Copy Screen: Scherm kopiëren
+        Corner Flow Block: Stromingsblok met hoeken
+        Create a New Screen: Nieuw scherm aanmaken
+        Create new project: Nieuw project aanmaken
+        Curve / Arc: Curve / boog
+        Data Group Display: Weergave gegevensgroepen
+        Data Transmission: Gegevensoverdracht
+        Data forwarding: Gegevens doorsturen
+        Data operation function: Bewerkingsfuncties voor gegevens
+        Data switch function: Conversiefuncties
+        Data type of C language: Gegevenstypen in C
+        Date Display: Datumweergave
+        Delete Screen: Scherm verwijderen
+        Delta device driver: Stuurprogramma Delta
+        Determinant: Tabel
+        Device driver: Apparaatstuurprogramma's
+        Dial switch: DIP-schakelaars
+        Digital Alarm Login: Digitale alarmregistratie
+        Discrete alarm login: Discrete alarmregistratie
+        Download configuration engineering: Het project downloaden
+        Draw Basic graphics: Grafische basiselementen tekenen
+        Dynamic Circle: Dynamische cirkel
+        Dynamic Rectangle: Dynamische rechthoek
+        Edit Interface: Bewerkingsomgeving
+        Edit Interface and System Composition: Bewerkingsomgeving en systeemopbouw
+        Emerson device driver: Stuurprogramma Emerson
+        Export data via U disk: Gegevens exporteren via USB-stick
+        Extern Picture: Externe afbeelding
+        FAQ & Solutions: Veelgestelde vragen en oplossingen
+        Fatek device driver: Stuurprogramma Fatek
+        File Encryption: Bestandsversleuteling
+        Flow block: Stromingsblok
+        Free Line: Vrije lijn
+        Free Port Communication Protocol Case: Voorbeeld vrij communicatieprotocol
+        Front panel: Frontpaneel
+        Fuji device driver: Stuurprogramma Fuji
+        Function Button: Functieknop
+        Function button introduction in script editor: De knoppen van de scripteditor
+        GE device driver: Stuurprogramma GE
+        GIF Display: GIF-weergave
+        General: Algemeen
+        Global Script: Globaal script
+        Graphic Move: Grafische beweging
+        Graphics editing commands: Bewerkingsopdrachten voor grafische elementen
+        Group and Ungroup: Groeperen en groep opheffen
+        HMI Protection: HMI-beveiliging
+        HMI Specification: Specificaties van de HMI
+        HMI State: HMI-status
+        HMI Structure: Opbouw van de HMI
+        HMI parameter settings: HMI-parameters
+        HaiWell device driver: Stuurprogramma HaiWell
+        Hardware Demand: Hardwarevereisten
+        Hardware Manual: Hardwarehandleiding
+        Historical Alarm Display: Weergave historische alarmen
+        Historical Data Collector: Historische gegevensverzamelaar
+        Historical Data Collector Case: Voorbeeld historische gegevensverzamelaar
+        Historical Data Display: Weergave historische gegevens
+        Historical Trend Chart: Historische trendgrafiek
+        Hitachi device driver: Stuurprogramma Hitachi
+        HollySys device driver: Stuurprogramma HollySys
+        IDEC device driver: Stuurprogramma IDEC
+        Init Script: Initialisatiescript
+        Initial value of variable and type conversion: Beginwaarden van variabelen
+          en typeconversie
+        Inovance device driver: Stuurprogramma Inovance
+        Introduction to C language: Inleiding tot de taal C
+        Invt device: Apparaat Invt
+        Keyboard: Toetsenbord
+        Keyence device driver: Stuurprogramma Keyence
+        Koyo device driver: Stuurprogramma Koyo
+        LG device driver: Stuurprogramma LG
+        Language: Taal
+        Layer: Lagen
+        Line: Lijn
+        Loop structure program: Programma's met lussen
+        Math arithmetic function: Wiskundige functies
+        Matsushita device driver: Stuurprogramma Matsushita
+        Message Board: Schrijfbord
+        Message Display: Berichtweergave
+        Meter: Wijzerinstrument
+        Mitsubishi device driver: Stuurprogramma Mitsubishi
+        Modbus device driver: Stuurprogramma Modbus
+        Modicon device driver: Stuurprogramma Modicon
+        Modify Screen Property: Schermeigenschappen wijzigen
+        Mouse usage and shortcut keys: Muisgebruik en sneltoetsen
+        Multi Window: Meervoudig venster
+        Multi-function Button: Multifunctionele knop
+        Multi-state Button: Meerstandenknop
+        Multi-state Indicator Lamp: Meerstandenlamp
+        Nanda device driver: Stuurprogramma Nanda
+        New create script: Nieuw script aanmaken
+        Newly labeled communication address options: Nieuwe opties voor communicatieadreslabels
+        Number signals of communication errors between HMI and PLC: Foutcodes van
+          de communicatie tussen HMI en PLC
+        Numerical Display: Numerieke weergave
+        Numerical Input: Numerieke invoer
+        Offline Simulation: Offline simulatie
+        Omron device driver: Stuurprogramma Omron
+        One-dimensional array: Eendimensionale array
+        Online Simulation: Online simulatie
+        Open Library: Bibliotheek openen
+        Operation Log: Bedieningslogboek
+        Operation case (Supplement): Toepassingsvoorbeelden (aanvulling)
+        PLC Control: PLC-besturing
+        Pack/Unpack: Inpakken/uitpakken
+        Path Display Case: Voorbeeld padweergave
+        Path display: Padweergave
+        Penetration connection: Doorgeefverbinding
+        Picture Display: Afbeeldingsweergave
+        Picture Format: Afbeeldingsformaat
+        Pie Chart: Cirkeldiagram
+        Pin: Pintoewijzing
+        Pipeline: Leiding
+        Polygon: Veelhoek
+        Polyline: Polylijn
+        Power Interface: Voedingsaansluiting
+        Preface: Voorwoord
+        Project Manager: Projectbeheerder
+        Qrcode: QR-code
+        Quick Start Of CommandHMI: Snel aan de slag met CommandHMI
+        Radio Button: Keuzerondje
+        Recipe: Recept
+        Recipe Case: Receptvoorbeeld
+        Recipe Display: Receptweergave
+        Recipe Selector: Receptkeuze
+        Rectangle: Rechthoek
+        Regular polygon: Regelmatige veelhoek
+        Reserved Registers of CommandHMI System: Gereserveerde systeemregisters van
+          CommandHMI
+        Rotaty: Draaien
+        Rounded Rectangle: Afgeronde rechthoek
+        Run CommandHMI: CommandHMI starten
+        Running Indicator Lights: Bedrijfsindicatielampjes
+        Scale: Schaalverdeling
+        Schedule Table: Planning
+        Screen: Scherm
+        Screen Operations: Schermbewerkingen
+        Screen button: Schermknop
+        Script function introduction: Inleiding tot de scriptfuncties
+        Scroll bar: Schuifbalk
+        Section summary: Samenvatting van de paragraaf
+        Set Up Software: De software installeren
+        Set parameters and add graphic object: Parameters instellen en grafische objecten
+          toevoegen
+        Setting: Instellingen
+        Siemens device driver: Stuurprogramma Siemens
+        Simulation: Simulatie
+        Slider: Schuifregelaar
+        Software Demand: Softwarevereisten
+        Standard Toolbar: Standaardwerkbalk
+        Statement of C program: Instructies van een C-programma
+        Static Picture: Statische afbeelding
+        Stepping Button: Stappenknop
+        String handling functions: Tekenreeksfuncties
+        System Composition: Systeemopbouw
+        System Demand: Systeemvereisten
+        System Settings: Systeeminstellingen
+        Table: Tabel
+        TaiAn device driver: Stuurprogramma TaiAn
+        TaiLing device driver: Stuurprogramma TaiLing
+        Techwayson device driver: Stuurprogramma Techwayson
+        Text: Tekst
+        Text Library: Tekstbibliotheek
+        The operation setting: Bedieningsinstellingen
+        Theme: Onderwerp
+        Time Display: Tijdweergave
+        Toolbox: Gereedschapskist
+        Trend Chart: Trendgrafiek
+        Trigger_Script: Triggerscript
+        Uninstall Software: De software verwijderen
+        Update project via U disk: Project bijwerken via USB-stick
+        Update recipe via U disk: Recepten bijwerken via USB-stick
+        Upload configuration engineering: Het project uploaden
+        Upload historical data record: Historische gegevens uploaden
+        Use internal storage area in script: Interne geheugens in een script gebruiken
+        Use of HMIManager: Gebruik van HMIManager
+        Use script function to program: Programmeren met scriptfuncties
+        User Permission: Gebruikersrechten
+        Variable Table: Variabelentabel
+        Vigor device driver: Stuurprogramma Vigor
+        Week Display: Weekdagweergave
+        What's CommandHMI: Wat is CommandHMI
+        Window: Venster
+        Wiring: Bedrading
+        Word Button: Woordknop
+        XY Trend Chart: XY-trendgrafiek
+        Xinje device driver: Stuurprogramma Xinje
+        Yokogawa device driver: Stuurprogramma Yokogawa
+        ZhengHang device driver: Stuurprogramma ZhengHang
+        break statement: break-instructie
+        continue statement: continue-instructie
+        for statement: for-instructie
+        menu bar: Menubalk
+        switch statement: switch-instructie
+        “One machine with multiple screens” connection: Verbinding “één machine, meerdere
+          schermen”
+        “One screen with multiple machines” connection: Verbinding “één scherm, meerdere
+          machines”
+        Timer: Timer
+        Script: Script
+extra_css:
+- assets/extra.css
+nav:
+- HMI Specification: index.md
+- Preface: foreword.md
+- Hardware Manual:
+  - hardware.md
+  - General: hardware/summarize.md
+  - HMI Structure:
+    - hardware/structure.md
+    - Power Interface: hardware/structure/power.md
+    - Front panel: hardware/structure/faceplate.md
+    - Communication port: hardware/structure/interface.md
+    - Pin: hardware/structure/hmi_db9_port.md
+    - Running Indicator Lights: hardware/structure/lamp.md
+  - Wiring: hardware/wire.md
+- Quick Start Of CommandHMI:
+  - getting-started.md
+  - What's CommandHMI: whats-samdraw.md
+  - System Demand:
+    - getting-started/system-requirements.md
+    - Software Demand: getting-started/system-requirements/sw-requirements.md
+    - Hardware Demand: getting-started/system-requirements/hw-requirements.md
+  - Set Up Software: getting-started/install.md
+  - Uninstall Software: getting-started/uninstall.md
+  - Run CommandHMI: getting-started/running-samdraw.md
+  - Edit Interface and System Composition:
+    - getting-started/window.md
+    - Edit Interface:
+      - getting-started/window/editview.md
+      - menu bar: getting-started/window/editview/menu.md
+      - Standard Toolbar: getting-started/window/editview/toolbar.md
+      - Project Manager: getting-started/window/editview/project-manager.md
+      - Toolbox: getting-started/window/editview/toolbox.md
+    - System Composition: getting-started/window/system-structure.md
+  - Basic Operations:
+    - getting-started/basic-operation.md
+    - Mouse usage and shortcut keys: getting-started/basic-operation/mouse.md
+    - Common terms: getting-started/basic-operation/nomenclature.md
+- Basic steps of creating a new project:
+  - start-new-project.md
+  - Create new project: start-new-project/new-project.md
+  - Set parameters and add graphic object: start-new-project/setting-parameter.md
+  - Download configuration engineering: start-new-project/download-project.md
+  - Upload configuration engineering: start-new-project/upload-project.md
+  - Upload historical data record: start-new-project/converter.md
+  - Pack/Unpack: start-new-project/compression.md
+- CommandHMI Configuration Guide:
+  - configuration-guide.md
+  - Screen Operations:
+    - configuration-guide/screen.md
+    - Create a New Screen: configuration-guide/screen/new-screen.md
+    - Modify Screen Property: configuration-guide/screen/edit-screen.md
+    - Delete Screen: configuration-guide/screen/delete-screen.md
+    - Copy Screen: configuration-guide/screen/copy-screen.md
+    - Automatic sorting: configuration-guide/zidongpaixu.md
+  - Graphics editing commands:
+    - configuration-guide/edit-graph.md
+    - Group and Ungroup: configuration-guide/edit-graph/combine.md
+    - Layer: configuration-guide/edit-graph/arrangement.md
+    - Rotaty: configuration-guide/edit-graph/turn.md
+    - Align: configuration-guide/edit-graph/align.md
+  - Draw Basic graphics:
+    - configuration-guide/basic-graph.md
+    - Line: configuration-guide/basic-graph/line.md
+    - Polyline: configuration-guide/basic-graph/polylines.md
+    - Curve / Arc: configuration-guide/basic-graph/spline.md
+    - Free Line: configuration-guide/basic-graph/free-line.md
+    - Rectangle: configuration-guide/basic-graph/rect.md
+    - Rounded Rectangle: configuration-guide/basic-graph/roundrect.md
+    - Circle/Ellipse: configuration-guide/basic-graph/ellipse.md
+    - Polygon: configuration-guide/basic-graph/polygon.md
+    - Sector: configuration-guide/basic-graph/arcbase.md
+    - Text: configuration-guide/basic-graph/text.md
+    - Table: configuration-guide/basic-graph/table.md
+    - Scale: configuration-guide/basic-graph/ruler.md
+    - Open Library: configuration-guide/basic-graph/gallery.md
+    - Extern Picture: configuration-guide/basic-graph/externpic.md
+    - Regular polygon: configuration-guide/basic-graph/duobianxing.md
+  - CommandHMI Advanced controls:
+    - configuration-guide/extended-controls.md
+    - GIF Display: configuration-guide/extended-controls/gif-display.md
+    - Trend Chart: configuration-guide/extended-controls/trend.md
+    - XY Trend Chart: configuration-guide/extended-controls/xy-trend.md
+    - Historical Trend Chart: configuration-guide/extended-controls/histrendgraphics.md
+    - Dynamic Circle: configuration-guide/extended-controls/circle.md
+    - Dynamic Rectangle: configuration-guide/extended-controls/dym-rect.md
+    - Alarm Display: configuration-guide/extended-controls/alarm-control.md
+    - Alarm Bar: configuration-guide/extended-controls/alarm-bar.md
+    - Historical Alarm Display: configuration-guide/extended-controls/alarm-dialog.md
+    - Graphic Move: configuration-guide/extended-controls/graph-move.md
+    - Meter: configuration-guide/extended-controls/meter.md
+    - Historical Data Display: configuration-guide/extended-controls/history-record.md
+    - Message Display: configuration-guide/extended-controls/message.md
+    - Flow block: configuration-guide/extended-controls/pipe.md
+    - Timer: configuration-guide/extended-controls/timer.md
+    - Multi-function Button: configuration-guide/extended-controls/multi-function.md
+    - Pie Chart: configuration-guide/extended-controls/bingtu.md
+  - CommandHMI Basic controls:
+    - configuration-guide/basic-control.md
+    - Bit Button: configuration-guide/basic-control/bitbutton.md
+    - Word Button: configuration-guide/basic-control/wordbutton.md
+    - Bit Lamp: configuration-guide/basic-control/bit-lamp.md
+    - Screen button: configuration-guide/basic-control/screen-button.md
+    - Function Button: configuration-guide/basic-control/function-button.md
+    - Multi-state Button: configuration-guide/basic-control/multiple-button.md
+    - Multi-state Indicator Lamp: configuration-guide/basic-control/multiple-lamp.md
+    - Numerical Display: configuration-guide/basic-control/numerics-display.md
+    - Numerical Input: configuration-guide/basic-control/numerics-input.md
+    - ASCII Display: configuration-guide/basic-control/asc-display.md
+    - ASCII Input: configuration-guide/basic-control/asc-input.md
+    - Bar Graph: configuration-guide/basic-control/bar.md
+    - Time Display: configuration-guide/basic-control/time.md
+    - Date Display: configuration-guide/basic-control/date.md
+    - Week Display: configuration-guide/basic-control/week.md
+    - Static Picture: configuration-guide/basic-control/picture.md
+    - Picture Display: configuration-guide/basic-control/picture-display.md
+  - CommandHMI New controls:
+    - configuration-guide/new_add_control/new_add_control.md
+    - Arc Chart: configuration-guide/new_add_control/arc.md
+    - Stepping Button: configuration-guide/new_add_control/steping.md
+    - Radio Button: configuration-guide/new_add_control/singlebutton.md
+    - Combo Box: configuration-guide/new_add_control/combobox.md
+    - Slider: configuration-guide/new_add_control/sliderbutton.md
+    - Animation: configuration-guide/new_add_control/dymicbutton.md
+    - Message Board: configuration-guide/new_add_control/msgbord.md
+    - Data Group Display: configuration-guide/new_add_control/datagroupdisplay.md
+    - Keyboard: configuration-guide/new_add_control/keybord.md
+    - Recipe Selector: configuration-guide/new_add_control/recipeselect.md
+    - Recipe Display: configuration-guide/new_add_control/recipedisplay.md
+    - Qrcode: configuration-guide/new_add_control/two-wei-ma.md
+    - Operation Log: configuration-guide/new_add_control/operate-record-display.md
+    - Corner Flow Block: configuration-guide/new_add_control/corner-flow-block.md
+    - Multi Window: configuration-guide/new_add_control/multiwindow.md
+    - Path display: configuration-guide/new_add_control/path-display.md
+    - Scroll bar: configuration-guide/new_add_control/scrollbar.md
+    - Pipeline: configuration-guide/new_add_control/conduit.md
+    - Camera: configuration-guide/new_add_control/camera.md
+    - Determinant: configuration-guide/new_add_control/hanglie.md
+  - CommandHMI Control Instructions: configuration-guide/extended-controls/operation-notice.md
+- Script:
+  - macro.md
+  - Introduction to C language:
+    - macro/the-c-language.md
+    - Data type of C language: macro/data-type.md
+    - Initial value of variable and type conversion: macro/variable.md
+    - One-dimensional array: macro/array.md
+    - Basic operator and expression: macro/basic-operation.md
+    - Section summary: macro/brief.md
+  - C language programming preliminary:
+    - macro/program-c.md
+    - Statement of C program: macro/statem.md
+    - Branch structure program: macro/branch.md
+    - switch statement: macro/switch.md
+    - Loop structure program: macro/cyc.md
+    - for statement: macro/for.md
+    - break statement: macro/break.md
+    - continue statement: macro/continue.md
+    - Section summary: macro/brief2.md
+  - Script function introduction:
+    - macro/summary.md
+    - Use script function to program: macro/start-macro.md
+    - Function button introduction in script editor: macro/introduction.md
+    - New create script: macro/new-macro.md
+    - Use internal storage area in script: macro/local-reg.md
+  - String handling functions: macro/string_processing_function.md
+  - Data operation function: macro/data_operating_function.md
+  - Data switch function: macro/data_conversion_function.md
+  - Math arithmetic function: macro/mathematical_operation_function.md
+  - Communication function: macro/communication_function.md
+  - CAN communication function: macro/can_com.md
+- Simulation:
+  - offline.md
+  - Offline Simulation: offline/monitor.md
+  - Online Simulation: online.md
+- System Settings:
+  - setting.md
+  - Communication Port Property: setting/com.md
+  - Setting:
+    - setting/samdraw-setting.md
+    - Language: setting/language.md
+    - HMI parameter settings: setting/paramater.md
+    - HMI State: setting/status.md
+    - PLC Control: setting/plc-control.md
+    - Clock: setting/clock.md
+    - File Encryption: setting/file-protect.md
+    - HMI Protection: setting/hmi-protect.md
+    - Variable Table: setting/variblesetting.md
+    - The operation setting: setting/the_operation_setting.md
+    - Text Library: setting/textlibrary.md
+    - Address Library: setting/address-library.md
+    - User Permission: setting/userpermission.md
+    - MQTT:
+      - setting/mqttsetting.md
+      - Server: setting/mqtt.md
+      - Theme: setting/mqtttheme.md
+    - HTTP: setting/http.md
+  - Screen: setting/screen-setting.md
+  - Window: setting/window-setting.md
+  - Historical Data Collector: setting/history-data.md
+  - Alarm settings:
+    - setting/alarm-setting.md
+    - Digital Alarm Login: setting/dig-alarm.md
+    - Analog Alarm Login: setting/anal-alarm.md
+    - Discrete alarm login: setting/lisanbaojing.md
+    - Alarm Display Controls: setting/alarm-display.md
+  - Recipe: setting/formula.md
+  - Data Transmission: configuration-guide/extended-controls/transmission.md
+  - Global Script: setting/overall-macro.md
+  - Init Script: setting/init-macro.md
+  - Trigger_Script: setting/trigger_macro.md
+  - Data forwarding: setting/data-forwarding.md
+  - Schedule Table: setting/schedule.md
+- Reserved Registers of CommandHMI System:
+  - local-register.md
+  - LB: local-register/lb.md
+  - LW: local-register/lw.md
+  - RWI: local-register/rwi.md
+- Connection among multiple screens and machines:
+  - multpoint.md
+  - “One machine with multiple screens” connection: multpoint/multhmi.md
+  - “One screen with multiple machines” connection: multpoint/multmachine.md
+  - Penetration connection: multpoint/penetrate.md
+  - Modbus TCP/IP: multpoint/modbustcpip.md
+- Device driver:
+  - drivers.md
+  - AIBUS device driver: drivers/aibus.md
+  - Allen-Bradley device driver: drivers/allen-bradley.md
+  - Can: drivers/can_communication.md
+  - Codesys: codesys/codesys.md
+  - Delta device driver: drivers/delta.md
+  - Emerson device driver: drivers/emerson.md
+  - Fatek device driver: drivers/fatek.md
+  - Fuji device driver: drivers/fuji.md
+  - GE device driver: drivers/ge.md
+  - HaiWell device driver: drivers/haiwell.md
+  - Hitachi device driver: drivers/hitachi.md
+  - HollySys device driver: drivers/hollysys.md
+  - IDEC device driver: drivers/idec.md
+  - Inovance device driver: drivers/inovance.md
+  - Invt device: drivers/invt.md
+  - Keyence device driver: drivers/keyence.md
+  - Koyo device driver: drivers/koyo.md
+  - LG device driver: drivers/lg.md
+  - Matsushita device driver: drivers/matsushita.md
+  - Mitsubishi device driver: drivers/mitsubishi.md
+  - Modbus device driver: drivers/modbus.md
+  - Modicon device driver: drivers/modicon.md
+  - Nanda device driver: drivers/nanda.md
+  - Omron device driver: drivers/omron.md
+  - Siemens device driver: drivers/siemens.md
+  - TaiAn device driver: drivers/taian.md
+  - TaiLing device driver: drivers/tailing.md
+  - Techwayson device driver: drivers/techwayson.md
+  - Vigor device driver: drivers/vigor.md
+  - Xinje device driver: drivers/xinje.md
+  - Yokogawa device driver: drivers/yokogawa.md
+  - ZhengHang device driver: drivers/zhenghang.md
+- Number signals of communication errors between HMI and PLC: hmi_plc_error.md
+- Appendix:
+  - appendix/apendindex.md
+  - Export data via U disk: appendix/usdhisdata.md
+  - Picture Format: appendix/pictureformat.md
+  - Update project via U disk: appendix/use_usd.md
+  - Update recipe via U disk: appendix/use_usb.md
+  - Dial switch: appendix/dip_switch.md
+  - Use of HMIManager: appendix/hmimanager.md
+  - Newly labeled communication address options: appendix/new_select.md
+- Operation case (Supplement):
+  - operation_case.md
+  - A simple macroblock: macro/example.md
+  - Free Port Communication Protocol Case: macro/environment.md
+  - Historical Data Collector Case: case/history-data-case.md
+  - Recipe Case: case/formula-case.md
+  - Digital Alarm Login: setting/dig-alarm.md
+  - Analog Alarm Login: setting/anal-alarm.md
+  - Path Display Case: configuration-guide/new_add_control/pathdisplaycase.md
+- FAQ & Solutions: faq.md
