@@ -1,4 +1,4 @@
-# HMI Specification
+# CommandHMI Specification
 
 *   * Human Machine Interface
 
