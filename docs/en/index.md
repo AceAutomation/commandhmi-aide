@@ -1,6 +1,6 @@
 # CommandHMI Specification
 
-*   * Human Machine Interface
+Human Machine Interface
 
 Welcome to CommandHMI online help that is meant to help you learn with the application of CommandHMI.
 
